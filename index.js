@@ -19,6 +19,10 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten(name){
-  var newArray = [...array, element]
+  var newArray = [...kittens, name]
   return newArray
+}
+
+function prependKitten(name){
+  var newArray = [name, ...kittens]
 }
